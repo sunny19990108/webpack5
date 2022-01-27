@@ -1,0 +1,189 @@
+.container {
+  padding: 100px 0 0 100px;
+}
+.list {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+
+.btnBox {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+  text-align: right;
+  p {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 442px;
+    height: 32px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+.container {
+  position: relative;
+  height: 90%;
+  padding: 0 104px;
+}
+}
+.payrollName {
+  width: 200px;
+  margin-right: 10px;
+}
+.month {
+  width: 200px;
+}
+.payrollList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 144px;
+  margin-bottom: 24px;
+  padding: 24px 32px;
+  background-color: #0c8cf6;
+  border: solid 1px #0c8cf6;
+  border-radius: 4px;
+
+}
+.payrollListItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 144px;
+  margin-bottom: 24px;
+  padding: 24px 32px;
+  background-color: #0c8cf6;
+  border: solid 1px #0c8cf6;
+  border-radius: 4px;
+
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.payrollRight {
+  display: flex;
+  width: 100%;
+  padding: 18px 0 18px 80px;
+}
+.title {
+  position: relative;
+  flex: 0 0 auto;
+  align-items: flex-start;
+  width: 358px;
+  padding-right: 8px;
+}
+.titleName {
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+.payrollName {
+  padding-right: 10px;
+}
+.memberNum {
+  width: 310px;
+  overflow: hidden;
+  color: #575d6a;
+  font-size: 16px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  .totalNum {
+    margin-right: 15px;
+  }
+}
+.editBtn {
+  cursor: pointer;
+}
+.editBtn:hover {
+  color: #0c8cf6;
+}
+.memberTitle {
+  display: flex;
+  color: #0c8cf6;
+  font-size: 12px;
+}
+.detailLabel {
+  flex-shrink: 0;
+}
+.memberDetail {
+  overflow: hidden;
+  color: #292c32;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.splitLine {
+  position: absolute;
+  top: 12px;
+  right: 0;
+  width: 1px;
+  height: 72px;
+  background: #292c32;
+}
+.midInfo {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  color: #292c32;
+  font-size: 12px;
+}
+.noValue {
+  margin-bottom: 12px;
+  color: #292c32;
+  font-size: 24px;
+}
+.haveValue {
+  margin-bottom: 12px;
+  color: #f59f00;
+  font-size: 24px;
+}
+.createTime {
+  flex: 4;
+  align-items: flex-end;
+  justify-content: center;
+  color: #292c32;
+  font-size: 14px;
+}
+.deleteBtn {
+  flex: none;
+  width: 60px;
+  transition: all 0.5s;
+}
+.payrollListItem:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.01);
+}
+.payrollListItem:hover .deleteBtn {
+  opacity: 1;
+}
+.payrollListItem:hover .deleteDisable {
+  opacity: 1;
+}
+.spin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.img {
+  max-width: 400px;
+  max-height: 180px;
+}
